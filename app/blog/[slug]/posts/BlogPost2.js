@@ -7,7 +7,7 @@ export default function BlogPost2() {
       
       <h2>Complete Termite Control & Treatment Guide for Goa 2024</h2>
       <p>
-        Termites are one of the most destructive pests in Goa's coastal climate. This comprehensive guide 
+        Termites are one of the most destructive pests in Goa&apos;s coastal climate. This comprehensive guide 
         covers <strong>termite treatment</strong>, <strong>termite control</strong>, and <strong>termite inspection</strong> services.
       </p>
 

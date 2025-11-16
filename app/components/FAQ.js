@@ -58,7 +58,7 @@ export default function FAQ() {
               Pest Control FAQs <span className="text-primary-600">Goa</span>
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Common Questions About Pest Control Services in Goa | Termite Control | Cockroach Control | Bed Bug Treatment | Pricing | Areas Covered | Safety | Warranty. Get answers from Goa's best pest control experts.
+              Common Questions About Pest Control Services in Goa | Termite Control | Cockroach Control | Bed Bug Treatment | Pricing | Areas Covered | Safety | Warranty. Get answers from Goa&apos;s best pest control experts.
             </p>
             <div className="bg-gradient-to-br from-primary-100 to-primary-200 rounded-2xl p-8 text-center">
               <div className="text-6xl mb-4">🤔</div>

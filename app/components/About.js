@@ -42,7 +42,7 @@ export default function About() {
             Best <span className="text-primary-600">Pest Control Company in Goa</span>
           </h2>
           <p className="section-subheading mt-4">
-            Nuclear Pest Control - Goa's #1 Trusted Pest Control Service Provider | Licensed Pest Exterminators | Eco-Safe Chemical Solutions | Serving North Goa, South Goa, Panjim, Margao, Calangute, Candolim, Baga, Anjuna, Colva & All Goa Areas
+            Nuclear Pest Control - Goa&apos;s #1 Trusted Pest Control Service Provider | Licensed Pest Exterminators | Eco-Safe Chemical Solutions | Serving North Goa, South Goa, Panjim, Margao, Calangute, Candolim, Baga, Anjuna, Colva & All Goa Areas
           </p>
         </motion.div>
 

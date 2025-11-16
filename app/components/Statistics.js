@@ -42,7 +42,7 @@ export default function Statistics() {
           className="text-center mb-16"
         >
           <h2 className="section-heading text-dark-900">
-            Goa's Most Trusted <span className="text-primary-600">Pest Control Company</span>
+            Goa&apos;s Most Trusted <span className="text-primary-600">Pest Control Company</span>
           </h2>
           <p className="section-subheading text-gray-600 mt-4">
             Top-Rated Pest Control Services in Goa | 10,000+ Satisfied Customers | 4.8★ Rating | Serving North Goa, South Goa & All Goa Areas Since Years

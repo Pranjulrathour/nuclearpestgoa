@@ -11,7 +11,7 @@ export default function BlogPost1() {
 
       <h2>Why You Need Professional Pest Control Services in Goa</h2>
       <p>
-        Goa's tropical coastal climate creates the perfect environment for pests to thrive. High humidity, 
+        Goa&apos;s tropical coastal climate creates the perfect environment for pests to thrive. High humidity, 
         monsoon rains, and warm temperatures year-round make <strong>pest control services</strong> essential 
         for every property owner in Goa.
       </p>
@@ -103,7 +103,7 @@ export default function BlogPost1() {
       <div className="bg-primary-50 border-l-4 border-primary-600 p-6 my-8">
         <p className="font-semibold text-dark-900 mb-2">💡 Pro Tip:</p>
         <p>
-          <strong>Affordable pest control near me</strong> doesn't mean cheap quality. 
+          <strong>Affordable pest control near me</strong> doesn&apos;t mean cheap quality. 
           Look for value and warranty instead of just the <strong>cheapest pest control near me</strong>.
         </p>
       </div>
@@ -202,7 +202,7 @@ export default function BlogPost1() {
 
       <h2>Get Your Free Pest Inspection Today!</h2>
       <p>
-        Don't let pests take over your property. Contact Nuclear Pest Control, the{' '}
+        Don&apos;t let pests take over your property. Contact Nuclear Pest Control, the{' '}
         <strong>best pest control company near me</strong> in Goa, for:
       </p>
       <ul>

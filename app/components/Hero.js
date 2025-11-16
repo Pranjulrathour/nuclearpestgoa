@@ -32,7 +32,7 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-base md:text-lg text-slate-200/90 mb-8 max-w-xl"
             >
-              Modern, effective, and safe pest control solutions for Goa's residential and corporate clients.
+              Modern, effective, and safe pest control solutions for Goa&apos;s residential and corporate clients.
             </motion.p>
 
             <motion.div
