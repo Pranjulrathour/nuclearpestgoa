@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <!-- Main Landing Page - Best Pest Control Services in Goa -->
+  <url>
+    <loc>https://nuclearpestgoa.in/</loc>
+    <lastmod>2024-11-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- About Section - Best Pest Control Company Goa -->
+  <url>
+    <loc>https://nuclearpestgoa.in/#about</loc>
+    <lastmod>2024-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Services Section - Professional Pest Control Services Goa -->
+  <url>
+    <loc>https://nuclearpestgoa.in/#services</loc>
+    <lastmod>2024-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  
+  <!-- Testimonials - Customer Reviews Pest Control Goa -->
+  <url>
+    <loc>https://nuclearpestgoa.in/#testimonials</loc>
+    <lastmod>2024-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Contact - Contact Best Pest Control Company Goa -->
+  <url>
+    <loc>https://nuclearpestgoa.in/#contact</loc>
+    <lastmod>2024-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>
