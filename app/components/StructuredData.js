@@ -9,15 +9,17 @@ export default function StructuredData() {
     "alternateName": "Nuclear Pest Control",
     "description": "Best Pest Control Services in Goa. Professional termite control, cockroach control, bed bug treatment, rodent control, and mosquito control services across North Goa and South Goa.",
     "url": "https://nuclearpestgoa.in",
-    "telephone": "+91-98765-43210",
+    "telephone": "+91-70200-62681",
     "email": "info@nuclearpestgoa.in",
     "priceRange": "₹₹",
     "image": "https://nuclearpestgoa.in/logo.png",
     "logo": "https://nuclearpestgoa.in/logo.png",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Goa",
+      "streetAddress": "37/C, Indona, Davorlim, Behind Amul Icecream Shop, Salcete",
+      "addressLocality": "Margao",
       "addressRegion": "Goa",
+      "postalCode": "403601",
       "addressCountry": "IN"
     },
     "geo": {
@@ -68,10 +70,11 @@ export default function StructuredData() {
           "Wednesday",
           "Thursday",
           "Friday",
-          "Saturday"
+          "Saturday",
+          "Sunday"
         ],
-        "opens": "08:00",
-        "closes": "20:00"
+        "opens": "00:00",
+        "closes": "23:59"
       }
     ],
     "aggregateRating": {
@@ -159,7 +162,7 @@ export default function StructuredData() {
         "name": "How quickly can you respond to pest emergencies in Goa?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "We provide 24-48 hour response time for pest control emergencies across Goa. For urgent pest control needs in North Goa or South Goa, we offer same-day service. Contact us via WhatsApp at +91-98765-43210 for immediate assistance."
+          "text": "We provide 24-48 hour response time for pest control emergencies across Goa. For urgent pest control needs in North Goa or South Goa, we offer same-day service. Contact us via WhatsApp at +91-70200-62681 for immediate assistance."
         }
       },
       {
@@ -210,7 +213,7 @@ export default function StructuredData() {
     },
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+91-98765-43210",
+      "telephone": "+91-70200-62681",
       "contactType": "Customer Service",
       "areaServed": "IN",
       "availableLanguage": ["English", "Hindi", "Konkani", "Marathi"]

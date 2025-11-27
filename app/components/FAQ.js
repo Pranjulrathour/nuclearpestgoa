@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { ChevronDown, ChevronUp } from 'lucide-react'
+import { ChevronDown, HelpCircle, Sparkles, MessageCircle } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 export default function FAQ() {
@@ -43,35 +43,60 @@ export default function FAQ() {
   ]
 
   return (
-    <section className="py-20 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-          {/* Left Column - Illustration/Image */}
+    <section className="relative py-24 md:py-32 bg-gradient-to-b from-white via-gray-50 to-white overflow-hidden">
+      {/* Background Pattern */}
+      <div className="absolute inset-0 opacity-20">
+        <div className="absolute top-0 left-0 w-96 h-96 bg-primary-300 rounded-full mix-blend-multiply filter blur-3xl animate-float" />
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-accent-300 rounded-full mix-blend-multiply filter blur-3xl animate-float" style={{ animationDelay: '2s' }} />
+      </div>
+
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-start">
+          {/* Left Column - Sticky Info */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="lg:sticky lg:top-24"
+            className="lg:col-span-2 lg:sticky lg:top-32 space-y-8"
           >
-            <h2 className="section-heading text-dark-900 mb-6">
-              Pest Control FAQs <span className="text-primary-600">Goa</span>
-            </h2>
-            <p className="text-lg text-gray-600 mb-8">
-              Common Questions About Pest Control Services in Goa | Termite Control | Cockroach Control | Bed Bug Treatment | Pricing | Areas Covered | Safety | Warranty. Get answers from Goa&apos;s best pest control experts.
-            </p>
-            <div className="bg-gradient-to-br from-primary-100 to-primary-200 rounded-2xl p-8 text-center">
-              <div className="text-6xl mb-4">🤔</div>
-              <h3 className="text-xl font-bold text-dark-900 mb-2">Need Pest Control in Goa?</h3>
-              <p className="text-gray-700 mb-4">Contact us for free pest inspection and consultation!</p>
-              <a
-                href="https://wa.me/919876543210"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-primary inline-block"
-              >
-                Contact Us
-              </a>
+            <div>
+              <div className="inline-flex items-center space-x-2 bg-primary-100 text-primary-700 rounded-full px-4 py-2 mb-6">
+                <HelpCircle className="w-4 h-4" />
+                <span className="text-sm font-semibold">FAQ</span>
+              </div>
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                Frequently Asked <span className="bg-gradient-to-r from-primary-600 to-primary-700 bg-clip-text text-transparent">Questions</span>
+              </h2>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                Common questions about pest control services in Goa. Get answers from our expert team.
+              </p>
+            </div>
+
+            {/* Contact Card */}
+            <div className="bg-gradient-to-br from-primary-600 to-primary-700 rounded-3xl p-8 text-white relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-2xl" />
+              <div className="absolute bottom-0 left-0 w-32 h-32 bg-white/10 rounded-full blur-2xl" />
+              
+              <div className="relative">
+                <div className="w-14 h-14 bg-white/20 rounded-2xl flex items-center justify-center mb-4">
+                  <MessageCircle className="w-7 h-7" />
+                </div>
+                <h3 className="text-2xl font-bold mb-2">
+                  Still Have Questions?
+                </h3>
+                <p className="text-white/90 mb-6">
+                  Contact us for free pest inspection and consultation!
+                </p>
+                <a
+                  href="https://wa.me/917020062681"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center w-full bg-white text-primary-600 px-6 py-3 rounded-xl font-bold hover:scale-105 transition-transform duration-300 shadow-xl"
+                >
+                  Contact Us Now
+                </a>
+              </div>
             </div>
           </motion.div>
 
@@ -81,23 +106,27 @@ export default function FAQ() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="space-y-4"
+            className="lg:col-span-3 space-y-4"
           >
             {faqs.map((faq, index) => (
               <div
                 key={index}
-                className="bg-white/95 backdrop-blur-sm rounded-xl shadow-md border border-gray-100/80 overflow-hidden hover:shadow-xl transition-shadow duration-300"
+                className="bg-white rounded-2xl shadow-soft border border-gray-100 overflow-hidden hover:shadow-soft-lg transition-shadow duration-300"
               >
                 <button
                   onClick={() => setOpenIndex(openIndex === index ? -1 : index)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-gray-50 transition-colors"
+                  className="w-full px-6 md:px-8 py-6 text-left flex justify-between items-start gap-4 hover:bg-gray-50 transition-colors duration-300"
                 >
-                  <span className="font-semibold text-dark-900 pr-4">{faq.question}</span>
-                  {openIndex === index ? (
-                    <ChevronUp className="w-5 h-5 text-primary-600 flex-shrink-0" />
-                  ) : (
-                    <ChevronDown className="w-5 h-5 text-gray-400 flex-shrink-0" />
-                  )}
+                  <span className="font-bold text-gray-900 pr-4 flex-1">
+                    {faq.question}
+                  </span>
+                  <motion.div
+                    animate={{ rotate: openIndex === index ? 180 : 0 }}
+                    transition={{ duration: 0.3 }}
+                    className="flex-shrink-0"
+                  >
+                    <ChevronDown className={`w-6 h-6 ${openIndex === index ? 'text-primary-600' : 'text-gray-400'}`} />
+                  </motion.div>
                 </button>
                 
                 <AnimatePresence>
@@ -107,8 +136,9 @@ export default function FAQ() {
                       animate={{ height: 'auto', opacity: 1 }}
                       exit={{ height: 0, opacity: 0 }}
                       transition={{ duration: 0.3 }}
+                      className="overflow-hidden"
                     >
-                      <div className="px-6 pb-5 text-gray-600">
+                      <div className="px-6 md:px-8 pb-6 text-gray-600 leading-relaxed border-t border-gray-100 pt-6">
                         {faq.answer}
                       </div>
                     </motion.div>

@@ -18,8 +18,8 @@ export default function Home() {
       <StructuredData />
       <Navbar />
       <Hero />
-      <About />
       <Services />
+      <About />
       <Statistics />
       <Certifications />
       <Testimonials />

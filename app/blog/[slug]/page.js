@@ -124,14 +124,14 @@ export default function BlogPostPage() {
             </p>
             <div className="flex gap-3">
               <a
-                href="tel:+919876543210"
+                href="tel:+917020062681"
                 className="inline-flex items-center bg-primary-600 text-white px-4 py-2 rounded-lg hover:bg-primary-700 transition-colors text-sm font-semibold"
               >
                 <Phone className="w-4 h-4 mr-2" />
                 Call Now
               </a>
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/917020062681"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors text-sm font-semibold"
@@ -167,11 +167,11 @@ export default function BlogPostPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+919876543210"
+              href="tel:+917020062681"
               className="bg-white text-primary-600 font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition-all duration-300 shadow-lg inline-flex items-center justify-center"
             >
               <Phone className="w-5 h-5 mr-2" />
-              Call: +91-98765-43210
+              Call: +91-70200-62681
             </a>
             <Link
               href="/#contact"
